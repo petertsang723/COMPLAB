@@ -4,10 +4,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134245824-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-134245824-1');
+      var queryString = window.location.search.slice(1);
+      if(queryString) {
+        qString = queryString.split('q=')[1].split('&')[0];
+        alert(qString);
+      }
     </script>
   </head>
   <body>
