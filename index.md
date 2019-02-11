@@ -1,3 +1,19 @@
+<html>
+  <head>
+    <title>COMP TEST</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134245824-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-134245824-1');
+    </script>
+  </head>
+  <body>
+  
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/petertsang723/COMPLAB/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
@@ -35,3 +51,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+  </body>
+</html>
